@@ -2,7 +2,7 @@
   "name": "dragonfly-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amrochewschappies.github.io/Dragonfly-App",
+  "homepage": "https://amrochewschappies.github.io/Dragonfly-App/#/home",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
