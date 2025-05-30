@@ -1,0 +1,121 @@
+body {
+  background-color: #fffcf3;
+  cursor: none;
+}
+
+@font-face {
+  font-family: "Dragonfly";
+  src: url("../assets/fonts/Dragonfly.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 9rem;
+  font-family: "Dragonfly";
+}
+
+h2 {
+  font-size: 7em;
+}
+
+h3 {
+  font-size: 5em;
+}
+
+h4 {
+  font-size: 2.1em;
+  font-weight: 160;
+  margin-bottom: 0;
+  margin-top: 2%;
+}
+
+h5 {
+  font-size: 1.4em;
+  font-weight: 120;
+  margin-bottom: 0;
+  margin-top: 2%;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 100;
+}
+
+.return-button{
+  background-color: #fffcf3;
+  border-radius: 12px;
+}
+
+#cursor-circle {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --cursor-size: 12px;
+  --bg: #fffcf3;
+}
+
+#cursor {
+  position: fixed;
+  top: calc(var(--cursor-size) * -0.5);
+  left: calc(var(--cursor-size) * -0.5);
+  pointer-events: none;
+  mix-blend-mode: difference;
+  filter: url(#goo);
+  z-index: 10000;
+}
+
+.cursor-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--cursor-size);
+  height: var(--cursor-size);
+  border-radius: var(--cursor-size);
+  background: var(--bg);
+  transform-origin: center center;
+}
+
+.goo {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0;
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  #cursor {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .responsiveness-hide {
+    display: none;
+  }
+
+  #cursor {
+    display: none;
+  }
+}
