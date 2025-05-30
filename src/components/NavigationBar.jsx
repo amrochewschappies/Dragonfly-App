@@ -16,7 +16,7 @@ function NavigationBar() {
   return (
     <nav className="header-container">
       <div>
-        <img src="${process.env.PUBLIC_URL}/images/Lego.jpg" alt="Dragonfly Logo" className="logo" />
+        <img src={process.env.PUBLIC_URL + "/images/Lego.jpg"} alt="Dragonfly Logo" className="logo" />
         <p>Dragonfly</p>
       </div>
       <div className="nav-bar">

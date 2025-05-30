@@ -32,7 +32,7 @@ function Highlights() {
         />
         <img
           className={`images ${currentIndex === 2 ? "visible" : "invisible"}`}
-          src={process.env.PUBLIC_URL + /Images/Party.jpg}
+          src={process.env.PUBLIC_URL + "/Images/Party.jpg"}
           alt="Car Show"
         />
       </div>
