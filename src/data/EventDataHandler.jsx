@@ -2,7 +2,7 @@ const EventData = [
     {
         id: 0,
         name: "Shosholoza", 
-        image: "/Images/Yoga.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Yoga.jpg", 
         location: "Location",
         date: "date",
         price: "price",
@@ -12,7 +12,7 @@ const EventData = [
     {
         id: 1,
         name: "Bums Shaking", 
-        image: "/Images/Car Show.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Car Show.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -22,7 +22,7 @@ const EventData = [
     {
         id: 2,
         name: "Loyaring Class", 
-        image: "/Images/Lego.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Lego.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -32,7 +32,7 @@ const EventData = [
     {
         id: 3,
         name: "Speed Dating", 
-        image: "/Images/Party.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Party.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -42,7 +42,7 @@ const EventData = [
     {
         id: 4,
         name: "Stevovo Harvey", 
-        image: "/Images/Origami.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Origami.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -52,7 +52,7 @@ const EventData = [
     {
         id: 5,
         name: "Cars n shit", 
-        image: "/Images/Yoga.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Yoga.jpg", 
         location: "Location",
         date: "date",
         price: "price",
@@ -62,7 +62,7 @@ const EventData = [
     {
         id: 6,
         name: "Pop Smoke", 
-        image: "/Images/Car Show.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Car Show.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -72,7 +72,7 @@ const EventData = [
     {
         id: 7,
         name: "Hey Neihbour", 
-        image: "/Images/Lego.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Lego.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -82,7 +82,7 @@ const EventData = [
     {
         id: 8,
         name: "Fesitval", 
-        image: "/Images/Party.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Party.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -92,7 +92,7 @@ const EventData = [
     {
         id: 9,
         name: "Game Dev Meetup", 
-        image: "/Images/Origami.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Origami.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -102,7 +102,7 @@ const EventData = [
     {
         id: 10,
         name: "Koda Event", 
-        image: "/Images/Yoga.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Yoga.jpg", 
         location: "Location",
         date: "date",
         price: "price",
@@ -112,7 +112,7 @@ const EventData = [
     {
         id: 11,
         name: "Clay Class", 
-        image: "/Images/Car Show.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Car Show.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -123,7 +123,7 @@ const EventData = [
     {
         id: 12,
         name: "Mlungisi Run", 
-        image: "/Images/Lego.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Lego.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -133,7 +133,7 @@ const EventData = [
     {
         id: 13,
         name: "Clash Rouale Tournament", 
-        image: "/Images/Party.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Party.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -143,7 +143,7 @@ const EventData = [
     {
         id: 14,
         name: "Matswele showdown", 
-        image: "/Images/Origami.jpg", 
+        image: "${process.env.PUBLIC_URL}/Images/Origami.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",

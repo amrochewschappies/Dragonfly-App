@@ -30,7 +30,7 @@ function EventOTD() {
         <h4>Explore our featured event of the day!</h4>
         <img
           id="eventOTD-image"
-          src={EventData[EventOTDIndex].image}
+          src={"${process.env.PUBLIC_URL}" + EventData[EventOTDIndex].image}
           alt="Picture of the event of the day"
         />
         <h5>{EventData[EventOTDIndex].name}</h5>
