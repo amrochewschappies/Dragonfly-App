@@ -8,7 +8,7 @@ const EventData = [
     location: "Location",
     date: "date",
     price: "price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Music",
   },
   {
@@ -18,7 +18,7 @@ const EventData = [
     location: "Second Location",
     date: "Second date",
     price: "Second price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Kids",
   },
   {
@@ -28,7 +28,7 @@ const EventData = [
     location: "Second Location",
     date: "Second date",
     price: "Second price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Activites",
   },
   {
@@ -38,7 +38,7 @@ const EventData = [
     location: "Second Location",
     date: "Second date",
     price: "Second price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Comedy",
   },
   {
@@ -48,7 +48,7 @@ const EventData = [
     location: "Second Location",
     date: "Second date",
     price: "Second price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Comedy",
   },
   {
@@ -58,7 +58,7 @@ const EventData = [
     location: "Location",
     date: "date",
     price: "price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Music",
   },
   {
@@ -68,7 +68,7 @@ const EventData = [
     location: "Second Location",
     date: "Second date",
     price: "Second price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Kids",
   },
   {
@@ -78,7 +78,7 @@ const EventData = [
     location: "Second Location",
     date: "Second date",
     price: "Second price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Activites",
   },
   {
@@ -88,7 +88,7 @@ const EventData = [
     location: "Second Location",
     date: "Second date",
     price: "Second price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Comedy",
   },
   {
@@ -98,7 +98,7 @@ const EventData = [
     location: "Second Location",
     date: "Second date",
     price: "Second price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Comedy",
   },
   {
@@ -108,7 +108,7 @@ const EventData = [
     location: "Location",
     date: "date",
     price: "price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Music",
   },
   {
@@ -118,7 +118,7 @@ const EventData = [
     location: "Second Location",
     date: "Second date",
     price: "Second price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Kids",
   },
   {
@@ -128,7 +128,7 @@ const EventData = [
     location: "Second Location",
     date: "Second date",
     price: "Second price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Activites",
   },
   {
@@ -138,7 +138,7 @@ const EventData = [
     location: "Second Location",
     date: "Second date",
     price: "Second price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Comedy",
   },
   {
@@ -148,7 +148,7 @@ const EventData = [
     location: "Second Location",
     date: "Second date",
     price: "Second price",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, ab ea! Aut facilis, praesentium distinctio molestiae quam alias ducimus vitae eum omnis, totam officia explicabo eaque maxime voluptatum nostrum voluptate?",
     genre: "Comedy",
   },
 ];
