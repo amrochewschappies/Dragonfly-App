@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dragonfly-app/static/css/main.f855e6bc.css",
-    "main.js": "/dragonfly-app/static/js/main.781ca612.js",
-    "static/js/453.11ab18af.chunk.js": "/dragonfly-app/static/js/453.11ab18af.chunk.js",
-    "static/media/logo.svg": "/dragonfly-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/dragonfly-app/index.html",
-    "main.f855e6bc.css.map": "/dragonfly-app/static/css/main.f855e6bc.css.map",
-    "main.781ca612.js.map": "/dragonfly-app/static/js/main.781ca612.js.map",
-    "453.11ab18af.chunk.js.map": "/dragonfly-app/static/js/453.11ab18af.chunk.js.map"
+    "main.css": "/Dragonfly-App/static/css/main.f855e6bc.css",
+    "main.js": "/Dragonfly-App/static/js/main.fa12aaff.js",
+    "static/js/453.11ab18af.chunk.js": "/Dragonfly-App/static/js/453.11ab18af.chunk.js",
+    "static/media/logo.svg": "/Dragonfly-App/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Dragonfly-App/index.html",
+    "main.f855e6bc.css.map": "/Dragonfly-App/static/css/main.f855e6bc.css.map",
+    "main.fa12aaff.js.map": "/Dragonfly-App/static/js/main.fa12aaff.js.map",
+    "453.11ab18af.chunk.js.map": "/Dragonfly-App/static/js/453.11ab18af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.781ca612.js"
+    "static/js/main.fa12aaff.js"
   ]
 }
