@@ -4,12 +4,13 @@ import EventData from "../data/EventDataHandler";
 import { FiltersContex } from "../context/FiltersContext";
 
 function EventCards() {
-  const { isFiltering, setIsFiltering, filterType, setFilterType } = useContext(FiltersContex);
+  const { isFiltering, setIsFiltering, filterType, setFilterType } =
+    useContext(FiltersContex);
   const navigate = useNavigate();
 
   const [filteredEvents, setFilteredEvents] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const eventsPerPage = 4;
+  const eventsPerPage = 10;
 
   const OnViewClick = (eventId, e) => {
     e.preventDefault();
@@ -49,11 +50,7 @@ function EventCards() {
             className="event-card"
             onClick={(e) => OnViewClick(event.id, e)}
           >
-            <img
-              src={event.image}
-              className="event-image"
-              alt={event.name}
-            />
+            <img src={event.image} className="event-image" alt={event.name} />
             <p id="event-name">{event.name}</p>
             <p id="event-date">{event.date}</p>
           </li>
@@ -64,7 +61,10 @@ function EventCards() {
         {Array.from({ length: totalPages }, (_, i) => (
           <button
             key={i + 1}
-            onClick={() => setCurrentPage(i + 1)}
+            onClick={() => {
+              setCurrentPage(i + 1);
+              window.scrollTo({ top: 0, behavior: "smooth" }); 
+            }}
             className={currentPage === i + 1 ? "active-page" : ""}
           >
             {i + 1}

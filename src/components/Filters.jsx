@@ -21,9 +21,12 @@ function Filters() {
     <ul id="filters-container">
       <p style={{textDecoration : "underline", textUnderlineOffset: "6px"}} className="responsiveness-hide">Filters</p>
       <button onClick={(e) => {updateFilter(e)}} className="filter-option" style={{textDecoration : selectedFilter === "Music" ? "underline" : "none"}}>Music</button>
-      <button onClick={(e) => {updateFilter(e)}} className="filter-option" style={{textDecoration : selectedFilter === "Comedy" ? "underline" : "none"}}>Comedy</button>
+      <button onClick={(e) => {updateFilter(e)}} className="filter-option" style={{textDecoration : selectedFilter === "Culture" ? "underline" : "none"}}>Culture</button>
       <button onClick={(e) => {updateFilter(e)}} className="filter-option" style={{textDecoration : selectedFilter === "Activities" ? "underline" : "none"}}>Activities</button>
       <button onClick={(e) => {updateFilter(e)}} className="filter-option" style={{textDecoration : selectedFilter === "Kids" ? "underline" : "none"}}>Kids</button>
+      <button onClick={(e) => {updateFilter(e)}} className="filter-option" style={{textDecoration : selectedFilter === "Sports" ? "underline" : "none"}}>Sports</button>
+      <button onClick={(e) => {updateFilter(e)}} className="filter-option" style={{textDecoration : selectedFilter === "Lifestyle" ? "underline" : "none"}}>Lifestyle</button>
+      <button onClick={(e) => {updateFilter(e)}} className="filter-option" style={{textDecoration : selectedFilter === "Lifestyle" ? "underline" : "none"}}>Festival</button>
       <button onClick={(e) => {removeFilters(e)}} className="filter-option" style={{textDecoration : selectedFilter === "None" ? "underline" : "none"}}>None</button>
     </ul>
   );
