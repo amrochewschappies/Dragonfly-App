@@ -36,6 +36,12 @@
   gap: 2%;
 }
 
+#intro-section{
+  display: block;
+  text-align: left;
+  width: 80%;
+}
+
 @font-face {
   font-family: "Dragonfly";
   src: url("../assets/fonts/Dragonfly.ttf") format("truetype");
@@ -57,6 +63,7 @@
   #eventOTD-section > p {
     flex: 1;
   }
+  
 
   #first-part {
     transition: transform 0.2s ease;
@@ -72,13 +79,15 @@
   }
 
   #gallery .images {
-    width: 70%;
+    aspect-ratio: 16/9;
+    width: 40%;
   }
 
   #eventsCTA-section {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50%;
   }
 
   #eventsCTA-section div {

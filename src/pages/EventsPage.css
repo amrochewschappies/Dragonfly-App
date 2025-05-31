@@ -16,6 +16,10 @@
   border-width: 1px;
 }
 
+#filters-container button{
+  color: black;
+}
+
 @media (min-width: 1200px) {
   .event-card {
     display: block;

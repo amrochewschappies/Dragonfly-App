@@ -5,6 +5,7 @@ import EventsCTA from '../components/EventsCTA'
 import Highligts from '../components/Highligts'
 import Footer from '../components/Footer'
 import SearchBar from '../components/SearchBar'
+import Intro from '../components/Intro'
 import "./HomePage.css"
 
 
@@ -14,6 +15,7 @@ function HomePage() {
       <main>
         <Hero />
         <SearchBar />
+        <Intro />
         <EventOTD />
         <EventsCTA />
         <Highligts />
