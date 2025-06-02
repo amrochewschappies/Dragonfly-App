@@ -16,8 +16,8 @@ function HomePage() {
     <Fragment>
       <main>
         <Hero />
-        <SearchBar />
         <Intro />
+        <SearchBar />
         <EventOTD />
         <EventsCTA />
         <Highligts />

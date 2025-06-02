@@ -2,8 +2,8 @@ import React, { Fragment } from "react";
 
 function Intro() {
   return (
-    <div id="intro-section">
-      <h3>Welcome to Dragonfly</h3>
+    <div className="intro-section glass-background">
+      <h4>Welcome to <span className="groveeee-text">Groveeee</span></h4>
       <p>
         Discover a world of events happening near you — from electrifying live
         music concerts and mouthwatering food festivals to immersive creative

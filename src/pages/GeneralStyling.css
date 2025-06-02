@@ -1,6 +1,7 @@
 body {
-  background-color: #fffcf3;
+  background-color: #f1e0d0;
   cursor: none;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -8,6 +9,29 @@ body {
   src: url("../assets/fonts/Dragonfly.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Bond Time";
+  src: url("../assets/fonts/Bond\ Time.ttf") format("truetype");
+  font-style: normal;
+}
+
+.glass-background{
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  color: rgb(21, 21, 21);
+}
+
+.groveeee-text{
+  font-family: "Bond Time";
+
 }
 
 h1 {
@@ -55,7 +79,7 @@ p {
 
 :root {
   --cursor-size: 12px;
-  --bg: #fffcf3;
+  --bg: #1868d8;
 }
 
 #cursor {
@@ -93,7 +117,7 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #000000;
+  background: #d88d25;
   border-radius: 10px;
   transition: background 0.3s ease;
 }
@@ -101,6 +125,7 @@ p {
 ::-webkit-scrollbar-thumb:hover {
   background: #a0a0a0;
 }
+
 
 @media (min-width: 1200px) {
 }

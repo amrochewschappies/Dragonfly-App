@@ -23,7 +23,7 @@ function SearchBar() {
       <input
         type="text"
         autoComplete="off"
-        placeholder="search"
+        placeholder="looking for something?"
         id="search-bar"
         value={localInput}
         onChange={(e) => setLocalInput(e.target.value)}

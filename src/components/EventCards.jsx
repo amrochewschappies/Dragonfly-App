@@ -47,7 +47,7 @@ function EventCards() {
         {currentEvents.map((event) => (
           <li
             key={event.id}
-            className="event-card"
+            className="event-card glass-background"
             onClick={(e) => OnViewClick(event.id, e)}
           >
             <img src={event.image} className="event-image" alt={event.name} />

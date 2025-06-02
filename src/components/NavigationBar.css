@@ -6,7 +6,8 @@
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 1% 2%;
+  padding-top: 1%;
+  padding-right: 2%;
   overflow: hidden;
   position: relative;
 }
@@ -25,6 +26,10 @@
 
 #logo-text {
   margin-left: 0;
+  font-family: "Bond Time";
+  font-size: 2.3vw;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .header-container > div:first-child p {
@@ -61,7 +66,7 @@
 }
 
 li .responsiveness-hide {
-  color: #bababa;
+  color: #e5dab4;
 }
 
 .nav-items a:hover {

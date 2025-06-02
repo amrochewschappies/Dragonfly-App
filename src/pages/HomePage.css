@@ -3,15 +3,6 @@
   border-radius: 15px;
 }
 
-#hero-section {
-  font-family: "Dragonfly";
-  font-size: 15vw;
-}
-
-#hero-section-2 {
-  color: #ffc107;
-}
-
 #eventOTD-image {
   aspect-ratio: 16/9;
   width: 100%;
@@ -68,6 +59,7 @@
   padding: 10px;
   margin-bottom: 12px;
   border-radius: 4px;
+  background-color:  #e5d3c3;
   border: 1px solid #ccc;
 }
 
@@ -91,39 +83,94 @@
   font-weight: bold;
 }
 
-@font-face {
-  font-family: "Dragonfly";
-  src: url("../assets/fonts/Dragonfly.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+#hero-section {
+  font-family: "Bond Time";
+  font-size: 12vw;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+#animated-letter {
+  display: inline-block;
+  animation: wave-rotate 2s infinite ease-in-out;
+  color: #ff7f00;
+}
+
+@keyframes wave-rotate {
+  0% {
+    transform: rotate(0deg) translateY(0);
+  }
+  25% {
+    transform: rotate(5deg) translateY(-5px);
+  }
+  50% {
+    transform: rotate(-5deg) translateY(5px);
+  }
+  75% {
+    transform: rotate(5deg) translateY(-5px);
+  }
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+}
+
+.background-image {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.intro-section {
+  display: block;
+  text-align: left;
 }
 
 @media (min-width: 1200px) {
-  #eventOTD-section {
-    display: flex;
-    text-align: left;
-    margin-top: 4%;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 2%;
-  }
-
-  #eventOTD-section > div,
-  #eventOTD-section > p {
-    flex: 1;
-  }
-
-  #first-part {
-    transition: transform 0.2s ease;
-  }
-
-  #first-part:hover {
-    transform: scale(1.02);
+  .intro-section {
+    width: 30%;
+    margin: 2rem auto 3rem 0;
   }
 
   main {
     width: 80%;
     margin: 0 auto;
+  }
+
+  #eventOTD-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  #first-part {
+    flex: 70%;
+    margin-right: 20px;
+    transition: all 0.5s ease;
+    text-align: left;
+  }
+
+  #eventOTD-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .eventOTD-text {
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+    color: black;
+  }
+
+  #first-part:hover {
+    transform: scale(1.02);
   }
 
   #gallery .images {
@@ -132,16 +179,13 @@
   }
 
   #eventsCTA-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
   }
 
   #eventsCTA-section div {
     display: block;
     text-align: left;
-    padding-right: 12%;
+    padding-right: 1%;
   }
 
   #eventsCTA-image {
@@ -153,7 +197,7 @@
   #cta-button {
     width: 300px;
     height: 35px;
-    background-color: #fffcf3;
+    background-color: #f1e0d0;
     border-radius: 23px;
     transition: all 0.4s;
   }
@@ -174,6 +218,11 @@
   main {
     width: 100%;
     padding: 0 7% 0 7%;
+  }
+
+  .intro-section {
+    width: 100%;
+    margin: 22rem auto 0 0;
   }
 
   #gallery .images {
@@ -216,8 +265,9 @@
     margin-top: 8vh;
   }
 
-  #intro-section {
-    margin-left: 6%;
+  .intro-section {
+    width: 90%;
+    margin: 12rem auto 0 auto;
   }
 
   #hero-section {
@@ -270,5 +320,17 @@
     margin-right: 6%;
     padding-bottom: 12%;
     text-align: left;
+  }
+}
+
+@media (max-width: 447px) {
+  main {
+    width: 100%;
+    margin-top: 8vh;
+  }
+
+  .intro-section {
+    width: 90%;
+    margin: 2rem auto;
   }
 }

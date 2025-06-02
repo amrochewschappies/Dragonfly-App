@@ -25,7 +25,7 @@ function EventOTD() {
   }
 
   return (
-    <section id="eventOTD-section">
+    <section id="eventOTD-section" className="glass-">
       <div id="first-part" onClick={(e) => {OnViewClick(EventData[EventOTDIndex].id, e)}}>
         <h4>Explore our featured event of the day!</h4>
         <img
