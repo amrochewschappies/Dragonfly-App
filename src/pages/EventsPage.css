@@ -30,8 +30,7 @@
   left: 0;
   top: 0;
   z-index: -1;
-  filter: grayscale(50%);
-  transform: rotate(180deg);
+  filter: saturation(90%);
 }
 
 @media (min-width: 1200px) {
