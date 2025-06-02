@@ -36,7 +36,7 @@ function EventOTD() {
         <h5>{EventData[EventOTDIndex].name}</h5>
         <p>{EventData[EventOTDIndex].date}</p>
       </div>
-      <p className='responsiveness-hide'>{EventData[EventOTDIndex].description}</p>
+      <p className='responsiveness-hide eventOTD-text' >{EventData[EventOTDIndex].description}</p>
     </section>
   );
 }

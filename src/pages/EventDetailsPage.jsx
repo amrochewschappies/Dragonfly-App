@@ -92,6 +92,11 @@ function EventDetailsPage() {
               />
             </svg>
           </div>
+          <button>Get Tickets</button>
+
+          <form action="">
+            <input type="value" placeholder="Number of tickets"/>
+          </form>
         </div>
       </div>
     </Fragment>

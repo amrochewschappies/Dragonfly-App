@@ -53,6 +53,7 @@ function EventCards() {
             <img src={event.image} className="event-image" alt={event.name} />
             <p id="event-name">{event.name}</p>
             <p id="event-date">{event.date}</p>
+            <div id="background-color"></div>
           </li>
         ))}
       </ul>

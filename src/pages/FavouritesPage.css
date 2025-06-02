@@ -18,11 +18,22 @@
   justify-content: space-between;
 }
 
+.event-cards{
+  transition: all 0.5s ease;
+}
+
+.event-cards:hover {
+  transform: scale(105%);
+}
+
 @media (min-width: 1200px) {
   .event-cards {
     display: flex;
-    padding-top: 2%;
+    padding: 2%;
     gap: 2%;
+    margin-bottom: 2%;
+    border-radius: 2%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
 
   .event-images {

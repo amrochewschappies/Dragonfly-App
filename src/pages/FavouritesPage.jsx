@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { FavouritesContext } from "../context/FavouriteContext";
 import EventData from "../data/EventDataHandler";
+import { Navigate, useNavigate } from "react-router-dom";
 import "./FavouritesPage.css";
 
 function FavouritesPage() {
@@ -9,6 +10,8 @@ function FavouritesPage() {
   const [eventsArray, setEventsArray] = useState([]);
 
   const [hasFavourites, setHasFavourites] = useState(false);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (favouritesIDs.length > 0) {
@@ -25,6 +28,10 @@ function FavouritesPage() {
     const IdToRemove = favouritesIDs[ArrayIndex];
     removeFavourite(IdToRemove);
   };
+
+  const ViewEvent = (eventID) => {
+    navigate("/event/" + eventID);
+  }
 
   return (
     <div>
@@ -47,7 +54,7 @@ function FavouritesPage() {
         </div>
 
         {eventsArray.map((event, index) => (
-          <div key={index} className="event-cards">
+          <div key={index} className="event-cards" onClick={() => {ViewEvent(event.id)}}>
             <div id="flex-left-side">
               <img
                 src={event.image}
