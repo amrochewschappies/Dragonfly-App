@@ -1,0 +1,18 @@
+.events-containers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2%;
+}
+
+#parent-container {
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .events-containers {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2%;
+  }
+}

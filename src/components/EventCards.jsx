@@ -45,16 +45,16 @@ function EventCards() {
     <nav id="parent-container">
       <ul className="events-container">
         {currentEvents.map((event) => (
-          <li
-            key={event.id}
-            className="event-card glass-background"
-            onClick={(e) => OnViewClick(event.id, e)}
-          >
-            <img src={event.image} className="event-image" alt={event.name} />
-            <p id="event-name">{event.name}</p>
-            <p id="event-date">{event.date}</p>
-            <div id="background-color"></div>
-          </li>
+          <div className="event-container" key={event.id} onClick={(e) => OnViewClick(event.id, e)}>
+            <div
+              className="event-card"
+            >
+              <img src={event.image} className="event-image" alt={event.name} />
+              <p id="event-name">{event.name}</p>
+              <p id="event-date">{event.date}</p>
+            </div>
+            <p className="responsiveness-hide">{event.description}</p>
+          </div>
         ))}
       </ul>
 
@@ -64,7 +64,7 @@ function EventCards() {
             key={i + 1}
             onClick={() => {
               setCurrentPage(i + 1);
-              window.scrollTo({ top: 0, behavior: "smooth" }); 
+              window.scrollTo({ top: 0, behavior: "smooth" });
             }}
             className={currentPage === i + 1 ? "active-page" : ""}
           >

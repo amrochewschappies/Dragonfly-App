@@ -4,6 +4,7 @@ import { SearchContext } from "../context/SearchContext";
 import { useContext, Fragment } from "react";
 import { useNavigate } from "react-router-dom";
 import { FiltersContex } from "../context/FiltersContext";
+import "./SearchResults.css";
 
 function SearchResults() {
   const { searchInput } = useContext(SearchContext);
@@ -35,7 +36,7 @@ function SearchResults() {
    return (
     <nav id="parent-container">
       {updatedEvents.length > 0 ? (
-        <ul className="events-container">
+        <ul className="events-containers">
           {updatedEvents.map((event) => (
             <li
               key={event.name}

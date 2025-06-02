@@ -10,7 +10,7 @@ function EventsCTA() {
     }
 
   return (
-    <section id="eventsCTA-section">
+    <section id="eventsCTA-section" className="glass-background">
       <div>
         <h4>Explore all events</h4>
         <p>
