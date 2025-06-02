@@ -18,10 +18,13 @@
 }
 
 .logo {
-  width: 80px;
+  width: 110px;
   aspect-ratio: 16 / 9;
   object-fit: contain;
-  margin-right: 12px;
+}
+
+#logo-text {
+  margin-left: 0;
 }
 
 .header-container > div:first-child p {
@@ -57,17 +60,18 @@
   transition: color 0.3s;
 }
 
-li .responsiveness-hide{
+li .responsiveness-hide {
   color: #bababa;
 }
 
 .nav-items a:hover {
-  color: #ffc107; 
+  color: #ffc107;
 }
 
 .mobile-menu-button {
   display: none;
   cursor: pointer;
+  margin-top: 2%;
 }
 
 .menu-panel {
@@ -83,9 +87,9 @@ li .responsiveness-hide{
   z-index: 1000;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
-  text-align: left; 
+  text-align: left;
 }
 
 .menu-panel.open {
@@ -105,9 +109,9 @@ li .responsiveness-hide{
   text-decoration: none;
   color: black;
   font-weight: 300;
-  display: flex; 
-  justify-content: space-between; 
-  width: 100%; 
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   border-bottom: solid #ffc107;
   padding-bottom: 12%;
 }
@@ -117,7 +121,7 @@ li .responsiveness-hide{
   padding-bottom: 12%;
 }
 
-.menu-panel ul li span{
+.menu-panel ul li span {
   margin-left: 40px;
 }
 
@@ -131,9 +135,9 @@ li .responsiveness-hide{
     font-size: 1.3rem;
     font-weight: 300;
     color: black;
-    position: absolute; 
-    top: 15px; 
-    right: 24px; 
+    position: absolute;
+    top: 15px;
+    right: 24px;
   }
 
   .menu-panel ul li a:hover {
@@ -168,9 +172,9 @@ li .responsiveness-hide{
     font-size: 1.3rem;
     font-weight: 300;
     color: black;
-    position: absolute; 
-    top: 15px; 
-    right: 24px; 
+    position: absolute;
+    top: 15px;
+    right: 24px;
   }
 
   .menu-panel ul li a:hover {
@@ -192,5 +196,13 @@ li .responsiveness-hide{
 
   .menu-panel .close-button:hover {
     background: #f1f1f1;
+  }
+
+  .logo {
+    width: 110px;
+    margin-right: -14%;
+    margin-left: -13%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
   }
 }

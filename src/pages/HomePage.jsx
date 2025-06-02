@@ -6,6 +6,8 @@ import Highligts from '../components/Highligts'
 import Footer from '../components/Footer'
 import SearchBar from '../components/SearchBar'
 import Intro from '../components/Intro'
+import Closer from '../components/Closer'
+import Newsletter from '../components/Newsletter'
 import "./HomePage.css"
 
 
@@ -19,6 +21,8 @@ function HomePage() {
         <EventOTD />
         <EventsCTA />
         <Highligts />
+        <Closer />
+        <Newsletter />
         <Footer />
       </main>
     </Fragment>
