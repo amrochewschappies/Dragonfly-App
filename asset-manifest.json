@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Dragonfly-App/static/css/main.e7369afa.css",
-    "main.js": "/Dragonfly-App/static/js/main.6d3654c7.js",
+    "main.css": "/Dragonfly-App/static/css/main.e917e4f8.css",
+    "main.js": "/Dragonfly-App/static/js/main.278e21ba.js",
     "static/media/Dragonfly.ttf": "/Dragonfly-App/static/media/Dragonfly.cb4133b297c9a8f990c1.ttf",
+    "static/media/Bond Time.ttf": "/Dragonfly-App/static/media/Bond Time.190f10b2c2e490e756b1.ttf",
     "index.html": "/Dragonfly-App/index.html",
-    "main.e7369afa.css.map": "/Dragonfly-App/static/css/main.e7369afa.css.map",
-    "main.6d3654c7.js.map": "/Dragonfly-App/static/js/main.6d3654c7.js.map"
+    "main.e917e4f8.css.map": "/Dragonfly-App/static/css/main.e917e4f8.css.map",
+    "main.278e21ba.js.map": "/Dragonfly-App/static/js/main.278e21ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7369afa.css",
-    "static/js/main.6d3654c7.js"
+    "static/css/main.e917e4f8.css",
+    "static/js/main.278e21ba.js"
   ]
 }
