@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import EventData from "../data/EventDataHandler";
 import { FavouritesContext } from "../context/FavouriteContext";
 import "./EventDetailsPage.css";
+import EventDetailsClone from "../components/EventDetailsClone";
 
 function EventDetailsPage() {
   const navigate = useNavigate();
@@ -41,6 +42,7 @@ function EventDetailsPage() {
 
   return (
     <Fragment>
+      <EventDetailsClone />
       <div id="block-display">
         <div id="image-container">
           <svg

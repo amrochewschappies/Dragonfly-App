@@ -35,6 +35,15 @@
   margin-left: 2%;
 }
 
+#EventDetailsBG-Image {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+
 @media (min-width: 1200px) {
   #flex-display p:not(:first-child) {
     border-left: 1px solid #757575;

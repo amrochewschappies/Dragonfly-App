@@ -281,7 +281,7 @@
   }
 
   .event-container{
-    margin-bottom: 2%;
+    margin: 9%;
     padding: 0 1rem;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);

@@ -36,19 +36,24 @@ function SearchResults() {
    return (
     <nav id="parent-container">
       {updatedEvents.length > 0 ? (
-        <ul className="events-containers">
+        <div className="events-containers">
           {updatedEvents.map((event) => (
             <li
               key={event.name}
-              className="event-card"
+              className="event-carddd"
               onClick={(e) => OnViewClick(EventData.indexOf(event), e)}
             >
-              <img src={event.image} className="event-image" alt={event.name} />
-              <p id="event-name">{event.name}</p>
-              <p id="event-date">{event.date}</p>
+              <div>
+                <img src={event.image} className="event-iimage" alt={event.name} />
+                <p className="event-name">{event.name}</p>
+                <p className="event-date">{event.date}</p>
+              </div>
+              <p>
+                {event.description}
+              </p>
             </li>
           ))}
-        </ul>
+        </div>
       ) : (
         <Fragment>
           <p style={{ textAlign: "center", padding: "2rem"}}>
