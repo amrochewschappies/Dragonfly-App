@@ -10,7 +10,7 @@ function EventCards() {
 
   const [filteredEvents, setFilteredEvents] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const eventsPerPage = 10;
+  const eventsPerPage = 6;
 
   const OnViewClick = (eventId, e) => {
     e.preventDefault();

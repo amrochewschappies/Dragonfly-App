@@ -26,11 +26,13 @@
 
 #eventsBG-image {
   width: 100vw;
+  height: 100vh;
   position: fixed;
   left: 0;
   top: 0;
   z-index: -1;
-  filter: saturation(90%);
+  transform: rotate(180deg);
+  filter: saturation(0%);
 }
 
 @media (min-width: 1200px) {
@@ -90,14 +92,19 @@
   #filters-container {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 23%;
     padding: 2%;
     height: 60vh;
     border-left: solid;
-    border-color: #ffc107;
+    border-color: #9dc6bd;
     gap: 5%;
     align-items: flex-start;
     padding-left: 60px;
+  }
+
+  .filters-heading {
+    font-family: "Bond Time";
+    color: #9dc6bd;
   }
 
   .filter-option {
@@ -153,6 +160,28 @@
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
+  #eventsBG-image {
+    height: 100vw;
+    width: 100vw;
+    transform: rotate(90deg);
+  }
+
+  .event-container .responsiveness-hide{
+    text-align: left;
+  }
+
+  .event-container{
+    margin-bottom: 2%;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: rgb(21, 21, 21);
+  }
+
   .event-card {
     display: block;
     margin-top: 40px;
@@ -162,11 +191,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-right: 2%;
+    gap: 2%;
   }
 
   .event-image {
     aspect-ratio: 16/9;
-    width: 83%;
+    width: 100%;
     border-radius: 12px;
   }
 
@@ -206,13 +236,11 @@
 
   #event-name {
     text-align: left;
-    padding-left: 2.5em;
     font-size: 1.2em;
   }
 
   #event-date {
     text-align: left;
-    padding-left: 2.99em;
   }
 
   .event-card {
@@ -237,6 +265,12 @@
 }
 
 @media (max-width: 767px) {
+   #eventsBG-image {
+    height: 140vh;
+    width: 110vh;
+    transform: rotate(90deg) translateX(-140px);
+  }
+
   #main-container {
     display: block;
   }
@@ -246,13 +280,21 @@
     margin-top: 40px;
   }
 
-  .events-container {
-    display: block;
+  .event-container{
+    margin-bottom: 2%;
+    padding: 0 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: rgb(21, 21, 21);
   }
 
   .event-image {
     aspect-ratio: 16/9;
-    width: 90%;
+    width: 100%;
     border-radius: 12px;
   }
 
@@ -263,7 +305,6 @@
   }
 
   .event-card p {
-    padding: 0 0 0 22px;
     text-align: left;
   }
 

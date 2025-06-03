@@ -1,10 +1,14 @@
-import React from 'react'
-import SearchResults from '../components/SearchResults'
+import React, { Fragment } from "react";
+import SearchResults from "../components/SearchResults";
+import SearchResultsBackground from "../components/SearchResultsBackground";
 
 function SearchPage() {
   return (
-    <SearchResults />
-  )
+    <Fragment>
+      <SearchResultsBackground />
+      <SearchResults />
+    </Fragment>
+  );
 }
 
-export default SearchPage
+export default SearchPage;
