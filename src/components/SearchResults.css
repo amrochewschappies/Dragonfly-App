@@ -59,10 +59,12 @@
     margin: auto;
   }
 
-  .event-containers {
-    margin: 3rem;
+  .events-containers {
+    margin: 0rem;
     padding: 0;
   }
+
+
 
   .event-carddd p {
     padding: 0;
