@@ -5,12 +5,11 @@ import { useNavigate } from "react-router-dom";
 function SearchBar() {
   const { setSearchInput } = useContext(SearchContext);
   const [localInput, setLocalInput] = useState("");
-  
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/search"); 
+    navigate("/search");
     if (localInput.trim() !== "") {
       setSearchInput(localInput);
     } else {
@@ -19,7 +18,7 @@ function SearchBar() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} role="search" aria-label="Site search">
       <input
         type="text"
         autoComplete="off"

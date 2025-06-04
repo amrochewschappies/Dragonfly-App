@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
 
 function EventDetailsClone() {
   return (
-    <div>
-      <img src={process.env.PUBLIC_URL + "/Images/Event Details Backgroun.jpg"} alt="Image of Sand" id='EventDetailsBG-Image'/>
+    <div role="region" aria-label="Event details background image">
+      <img
+        src={process.env.PUBLIC_URL + "/Images/Event Details Backgroun.jpg"}
+        alt="A scenic background with sand, used as the event details background"
+        id="EventDetailsBG-Image"
+      />
     </div>
-  )
+  );
 }
 
-export default EventDetailsClone
+export default EventDetailsClone;

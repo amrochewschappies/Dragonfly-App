@@ -1,19 +1,21 @@
-import React from "react";
+import React, { useContext, Fragment } from "react";
 import EventData from "../data/EventDataHandler";
 import { SearchContext } from "../context/SearchContext";
-import { useContext, Fragment } from "react";
 import { useNavigate } from "react-router-dom";
 import { FiltersContex } from "../context/FiltersContext";
 import "./SearchResults.css";
 
 function SearchResults() {
   const { searchInput } = useContext(SearchContext);
-  
   const { setIsFiltering, setFilterType } = useContext(FiltersContex);
-
-  let updatedEvents = EventData;
-
   const navigate = useNavigate();
+
+  let updatedEvents = EventData.filter(
+    (event) =>
+      event.name &&
+      typeof event.name === "string" &&
+      event.name.toLowerCase().includes(searchInput.toLowerCase())
+  );
 
   const OnViewClick = (eventId, e) => {
     e.preventDefault();
@@ -22,47 +24,60 @@ function SearchResults() {
     navigate("/event/" + eventId);
   };
 
-  updatedEvents = updatedEvents.filter(
-    (event) =>
-      event.name &&
-      typeof event.name === "string" &&
-      event.name.toLowerCase().includes(searchInput.toLowerCase())
-  );
-
   const OnReturnClick = () => {
-    navigate("/events")
-  }
+    navigate("/events");
+  };
 
-   return (
-    <nav id="parent-container">
+  // keyboard handler for li to make it accessible by keyboard
+  const handleKeyDown = (event, eventId) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      OnViewClick(eventId, event);
+    }
+  };
+
+  return (
+    <section id="parent-container" aria-label="Search results">
       {updatedEvents.length > 0 ? (
-        <div className="events-containers">
+        <ul className="events-containers">
           {updatedEvents.map((event) => (
             <li
               key={event.name}
               className="event-carddd"
+              role="button"
+              tabIndex={0}
               onClick={(e) => OnViewClick(EventData.indexOf(event), e)}
+              onKeyDown={(e) => handleKeyDown(e, EventData.indexOf(event))}
+              aria-label={`View details for ${event.name}`}
             >
               <div>
-                <img src={event.image} className="event-iimage" alt={event.name} />
+                <img
+                  src={event.image}
+                  className="event-iimage"
+                  alt={`Image of ${event.name}`}
+                />
                 <p className="event-name">{event.name}</p>
                 <p className="event-date">{event.date}</p>
               </div>
-              <p>
-                {event.description}
-              </p>
+              <p>{event.description}</p>
             </li>
           ))}
-        </div>
+        </ul>
       ) : (
         <Fragment>
-          <p style={{ textAlign: "center", padding: "2rem"}}>
+          <p
+            style={{ textAlign: "center", padding: "2rem" }}
+            role="alert"
+            aria-live="polite"
+          >
             No results found for "<strong>{searchInput}</strong>"
           </p>
-          <button className="return-button" onClick={OnReturnClick}>return</button>
+          <button className="return-button" onClick={OnReturnClick}>
+            Return
+          </button>
         </Fragment>
       )}
-    </nav>
+    </section>
   );
 }
 

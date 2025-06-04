@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 function Intro() {
   return (
-    <div className="intro-section glass-background">
+    <section className="intro-section glass-background" aria-label="Introduction to Groveeee">
       <h4>
         Welcome to <span className="groveeee-text">Groveeee</span>
       </h4>
@@ -15,7 +15,7 @@ function Intro() {
         the water, Groveeee is your trusted guide to unforgettable water-based
         fun. Let’s make a splash together!
       </p>
-    </div>
+    </section>
   );
 }
 

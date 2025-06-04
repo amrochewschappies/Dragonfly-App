@@ -7,6 +7,7 @@
   justify-content: center;
   gap: 21px;
   padding: 0;
+  list-style: none;
 }
 
 .pagination-buttons button {
@@ -15,6 +16,10 @@
   border-width: 1px;
   background-color: #f1e0d0;;
   color: black;
+}
+
+.event-container p{
+  color: black !important;
 }
 
 #filters-container button {
