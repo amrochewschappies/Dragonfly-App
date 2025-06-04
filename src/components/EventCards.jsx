@@ -49,7 +49,7 @@ function EventCards() {
             <div
               className="event-card"
             >
-              <img src={event.image} className="event-image" alt={event.name} />
+              <img src={event.image} className="event-image" alt={"Image of "+ event.name} />
               <p id="event-name">{event.name}</p>
               <p id="event-date">{event.date}</p>
             </div>

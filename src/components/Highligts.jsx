@@ -22,18 +22,18 @@ function Highlights() {
       <div id="gallery">
         <img
           className={`images ${currentIndex === 0 ? "visible" : "invisible"}`}
-          src={process.env.PUBLIC_URL + "/Images/highlight 1.jpg"}
-          alt="Car Show"
+          src={process.env.PUBLIC_URL + "/Images/Water Highlight 1.jpg"}
+          alt="Highlight of previous parasailing event"
         />
         <img
           className={`images ${currentIndex === 1 ? "visible" : "invisible"}`}
-          src={process.env.PUBLIC_URL + "/Images/highlight 2.jpg"}
-          alt="Car Show"
+          src={process.env.PUBLIC_URL + "/Images/Water Highlight 2.jpg"}
+          alt="Highlight of previous yacht event"
         />
         <img
           className={`images ${currentIndex === 2 ? "visible" : "invisible"}`}
-          src={process.env.PUBLIC_URL + "/Images/highlight 3.jpg"}
-          alt="Car Show"
+          src={process.env.PUBLIC_URL + "/Images/Water Highlight 3.jpg"}
+          alt="Highlight of previous surfing event"
         />
       </div>
 

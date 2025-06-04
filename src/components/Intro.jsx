@@ -3,15 +3,17 @@ import React, { Fragment } from "react";
 function Intro() {
   return (
     <div className="intro-section glass-background">
-      <h4>Welcome to <span className="groveeee-text">Groveeee</span></h4>
+      <h4>
+        Welcome to <span className="groveeee-text">Groveeee</span>
+      </h4>
       <p>
-        Discover a world of events happening near you — from electrifying live
-        music concerts and mouthwatering food festivals to immersive creative
-        workshops, sports tournaments, and family-friendly activities. Whether
-        you're planning your next unforgettable weekend or just browsing for
-        inspiration, our carefully curated listings ensure you’ll never miss a
-        moment. With something for everyone, Dragonfly is your gateway to
-        discovering experiences that make life vibrant and memorable.
+        Dive into a world of exhilarating water
+        adventures—whether it's kayaking, snorkeling, jet skiing, or sunset
+        yacht cruises. Our carefully curated listings bring you the best aquatic
+        experiences, from serene paddles to thrilling speedboat rides. Whether
+        you’re planning your next adrenaline rush or just looking to unwind by
+        the water, Groveeee is your trusted guide to unforgettable water-based
+        fun. Let’s make a splash together!
       </p>
     </div>
   );
