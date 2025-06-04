@@ -246,5 +246,6 @@
     display: flex;
     flex-direction: column;
     width: 91vw;
+    margin-left: 4%;
   }
 }

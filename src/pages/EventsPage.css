@@ -22,12 +22,22 @@
   color: black !important;
 }
 
+.events-container{
+  list-style: none;
+}
+
 #filters-container button {
   color: black;
 }
 
 #filters-container p {
   font-weight: 390;
+}
+
+#filters-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
 }
 
 #eventsBG-image {
@@ -186,6 +196,10 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     color: rgb(21, 21, 21);
+  }
+
+  .responsiveness-hide{
+    display: none;
   }
 
   .event-card {
