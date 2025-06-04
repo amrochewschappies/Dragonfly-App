@@ -249,7 +249,7 @@
   #cta-button {
     width: 300px;
     height: 35px;
-    background-color: #fffcf3;
+    background-color: #f1e0d0;
     border-radius: 23px;
   }
 
@@ -287,16 +287,18 @@
   }
 
   #eventsCTA-section {
-    padding: 0 7% 0 7%;
+    padding: 0 2% 0 2%;
     display: block;
     text-align: left;
+    margin: 6%;
   }
 
   #cta-button {
     width: 300px;
     height: 35px;
-    background-color: #fffcf3;
+    background-color: #f1e0d0;
     border-radius: 23px;
+    color: black;
   }
 
   #highlights-section {

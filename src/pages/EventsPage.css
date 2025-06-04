@@ -10,10 +10,11 @@
 }
 
 .pagination-buttons button {
-  background-color: #fffcf3;
   border-radius: 6px;
   border: solid;
   border-width: 1px;
+  background-color: #f1e0d0;;
+  color: black;
 }
 
 #filters-container button {

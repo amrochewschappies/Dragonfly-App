@@ -77,7 +77,8 @@ function FavouritesPage() {
                   </div>
                   <svg
                     className="trash-icon"
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.stopPropagation();
                       HandleRemove(index);
                     }}
                     width="35px"
